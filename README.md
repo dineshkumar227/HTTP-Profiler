@@ -6,7 +6,7 @@
 * Slowest time
 * Mean time 
 * Median time
-* Percent success
+* Percentage of successful requests
 * Any error codes
 * Smallest response size
 * Largest response size
@@ -25,7 +25,9 @@ cd target/release/
 ```
 
 Or run directly:
-`cargo run -- [Args]`
+```
+cargo run -- [Args]
+```
 
 ### Flags
 * `--url=<URL>` The URL that a request will be made to
